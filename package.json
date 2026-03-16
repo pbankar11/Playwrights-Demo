@@ -1,0 +1,29 @@
+{
+  "name": "trainingplaywrights",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "allure serve allure-results",
+    "test:report": "playwright test && allure serve allure-results",
+    "cucumber": "cucumber-js",
+    "cucumber:report": "cucumber-js && allure serve allure-results",
+    "mcp:start": "node --loader ts-node/esm mcp-server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "allure-playwright": "^3.4.5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  }
+}

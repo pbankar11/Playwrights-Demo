@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "playwright-mcp": {
+      "command": "node",
+      "args": [
+        "--loader",
+        "ts-node/esm",
+        "mcp/server.ts"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
