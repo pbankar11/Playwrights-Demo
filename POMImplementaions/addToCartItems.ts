@@ -1,4 +1,6 @@
-import { BaseClass } from "./baseClass";
+// import { BaseClass } from "./baseClass";
+
+import { BaseClass } from '../POMImplementaions/baseClass';
 
 class AddToCartItems extends BaseClass{
     addtocart:any;
