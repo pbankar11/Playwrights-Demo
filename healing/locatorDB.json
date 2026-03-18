@@ -1,0 +1,7 @@
+{
+  "loginButton": [
+    "#login-btn",
+    "button:has-text('Login')",
+    "[data-testid='login-btn']"
+  ]
+}

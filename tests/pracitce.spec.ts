@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-import { BaseClass } from '../POMImplementaions/baseClass';
+import { BaseClass } from '../POMImplementaions/baseClass.js';
 
 
 test.describe('Make practice discribe',()=>{

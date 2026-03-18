@@ -1,6 +1,6 @@
 // import { BaseClass } from "./baseClass";
 
-import { BaseClass } from '../POMImplementaions/baseClass';
+import { BaseClass } from '../POMImplementaions/baseClass.js';
 
 class AddToCartItems extends BaseClass{
     addtocart:any;
@@ -27,7 +27,6 @@ class AddToCartItems extends BaseClass{
         // Click element
         await product.click();
     }
-
     async fill(locator: string, value: string) {
         const element = this.page.locator(locator);
         await element.scrollIntoViewIfNeeded();
